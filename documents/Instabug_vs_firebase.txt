@@ -1,0 +1,46 @@
+Instabug vs Firebase
+In this post, we will take a look at two of the top mobile app quality platforms out there, Instabug vs Firebase. These tools can help you monitor your app’s performance and crashes, as well as errors, network requests, battery consumption, and more.
+Similarities Between Instabug and Firebase
+The worst-case scenario for any app is encountering a session-ending crash. Both Instabug and Firebase help you stay ahead of negative reviews with detailed crash reporting. With both, you can assess the stack-trace information that led up to the crash to help narrow down fixes. You can also set up alerts to stay up to date with any new critical issues.
+Network calls play a huge role in the speed and responsiveness of your app. Usually, network performance is tracked on the server-side. And while that is important it only tells half of the story, both Instabug and Firebase let you track client-side network calls. You will be able to get a drill-down look at network performance and track HTTP requests by their response times, errors, and more.
+To help narrow down investigations and get a sense of how your app is performing, a lot of details are available for every user. You can filter reports based on OS version, app version, and device.
+
+
+Instabug's Strengths
+Capture every type of crash your users experience
+Instabug helps you get the full picture by capturing all possible crash types that may occur in your app. In addition to ANR errors and NDK and C++ crashes, Instabug also captures OOM errors, SwiftUI exceptions, crashes due to network errors, app hangs, and forced restarts.
+‍
+Reproduce issues with ease
+With each crash or bug report, Instabug captures a wealth of useful information that can help you fix issues faster. In addition to all the information Firebase includes with their crash reports, Instabug also includes “repro steps” which maintains a visual record of every step your user has taken on each app view before the crash to help you reproduce issues effortlessly. Instabug also includes a session profiler that captures the state of the device’s CPU, memory, storage, battery, network connectivity, and orientation for the 60 seconds leading up to the crash.
+‍
+Align your team on a north-star performance metric
+App performance can be difficult to assess when taken as a big picture. Assessing whether or not precious engineering resources need to be devoted to improving performance is one of the biggest challenges mobile teams face. Instabug’s apdex score helps you do just that. With one tell-all score that encompasses app, network, and UI performance as well as app stability, you can make actionable decisions faster. The app apdex score will tell you right on the dashboard whether your users are seeing a satisfying, tolerating, or frustrating experience.
+‍
+Best-in-class bug reporting
+Instabug offers the most powerful bug reporting tool for mobile apps on the market. With Instabug’s bug reporting features, your users can easily report bugs that don’t actually crash the app with a simple shake of their phone. For each bug report, Instabug captures a screenshot and lets your users annotate it or add more screenshots or a video recording to explain further. Instabug also automatically captures all the device and environment details, console logs, network logs, user attributes, repro steps, and session profiler to help you quickly reproduce and fix the bug.
+‍
+Advanced filters
+Instabug offers powerful, advanced filters that can help you find the exact issue you are looking for no matter how obscure. You can filter your issues by all data points and create saved filters for quick access to commonly used filters.
+‍
+Advanced and fully customizable alerts and notifications
+Instabug helps you stay on top of incoming issues with a powerful and fully customizable rules engine that allows you to create custom alerts and notifications for virtually any scenario. This will help you keep track of emerging issues and understand their impact on your users as well as enable you to quickly any regressing issues.
+‍
+Monitor and debug your app store reviews
+Instabug's App Ratings and Reviews captures all the ratings and reviews your app receives, enabling you to monitor the app store performance of each release and quickly identify emerging issues. More importantly, Instabug automatically identifies sessions that submit in-app ratings and allows you to watch exactly what led to them through Session Replay.
+‍
+Actively gather user feedback and app reviews
+Often the best way to understand what your users think is to simply ask them. Instabug's In-App Surveys gives you the power to actively source valuable user feedback to inform your roadmap and ensure it is aligned with your users' expectations. Additionally, you can prompt happy users to rate and review your app on the store and replay the sessions of unhappy users to find the source of their frustration.
+‍
+Automate rollout monitoring and management
+Instabug's Release Management gives you full control over the progress, adoption, health, and app store performance of your version rollouts in one place to help you quickly catch problematic releases and mitigate their impact. You can also set rules to automatically pause a version rollout when it falls below specified stability, performance, and app store rating thresholds, as well as create a rollout schedule to automate staged releases on the Play Store.
+‍
+Integrate with your favorite tools
+In addition to all the tools that Firebase integrates with, Instabug integrates with a suite of other popular tools like OpsGenie, Zendesk, Asana, Webhooks, and more.
+‍
+24/7 support
+Our customer happiness team is available around the clock and throughout the week to help you with any issues you might face and provide you with any needed help or support to get set up. No matter what you need or when you need it, our team will be available to assist you with a quick response and resolution.
+‍
+Your data is your own
+With Instabug, data privacy is our utmost concern. Your data is 100% yours. At no point will Instabug share, monetize, or access your data. Instabug is also compliant with major privacy laws and offers enterprise-grade security to ensure the privacy and security of your app and its users. And with easily customizable auto-masking of user data as well as granular manual customization, you have full control over what data is and isn’t collected from your users.
+
+

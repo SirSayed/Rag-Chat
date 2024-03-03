@@ -1,0 +1,96 @@
+How We Migrated Our Frontend While Scaling at Instabug
+The first line of code in Instabug’s dashboard was written in 2014. Looking back at the state of web development back then, we can see that most of the tools and concepts we’re using today did not yet exist or at least were not very mature.
+
+‍
+
+The starting point
+‍
+
+At that time, the trending front-end tools in web development were:
+
+AngularJS: Released by Google in 2010, AngularJS was a framework that combined a number of good practices from different libraries along with a collection of powerful features, and Google was confidently assuring there will be continued support for it.
+Angular: A new framework also released by Google that was still in the beta version; it was not stable and we couldn't rely on it.
+ReactJS: A relatively new framework created by Facebook that had just started to become popular.
+VueJS: This was the youngest member of the group; Version 1.0.0 wasn’t even released yet.
+Taking all that into consideration, AngularJS was a good choice to rely on for building our dashboard.
+
+Migration was essential
+‍
+
+Since we first chose AngularJS, web development has evolved and witnessed a leap in concepts and tools. Today web development is more complex and sophisticated than it was back in 2014. The reasons that made us choose AngularJS in the first place are not valid anymore and more reasons to migrate have also come up.
+
+‍
+
+Google's actions
+Angular (not AngularJS) is now considered Google’s darling. All of Google's efforts and support started to be directed mainly toward the maintenance and development of Angular, and very little effort was put into AngularJS. We tolerated and accepted this because Google was still releasing security patches and updates for AngularJS. But that stopped being the case starting from Dec 2021, which is when Google decided to drop the support for AngularJS. They will no longer maintain, update, or provide security patches for AngularJS, which of course was a deal-breaker.
+
+New technologies
+Newer frameworks such as Vue and React learned a lot from AngularJS's mistakes and mixed in their own flavor and ideas while fixing many of the problems that plagued older frameworks.
+
+Frameworks such as React and Vue have a lot of advantages over older frameworks, like:
+
+They utilize a virtual DOM which means that they create a representation of the UI which is kept in memory and synced with the real DOM.
+They are built on up-to-date bundlers such as Webpack and Parcel for source files optimization and better handling of application bundling for production purposes.
+They have much better routing performance and re-render far faster than AngularJS.
+They both remove the complexity of two-way binding between controller and views and provide alternative solutions for one-way data flow.
+
+Attracting talent
+At Instabug, we’re always looking for the best developers out there. We care about our product and good developers are an important pillar of our product. It isn't easy to find good developers working with AngularJS nowadays and the number of developers working with it decreases with time. This is due to the fact that most good developers much prefer working with new technologies and writing new code over working with old technologies and legacy code. Simply put, the best people want to work with the latest tech.
+
+Refactoring opportunity
+The migration process gave us the opportunity to look back at our code and enhance its quality, and we can use this opportunity to refactor our codebase. By utilizing the latest ECMAScript standards and specifications, and grouping the reusable code together, we can achieve optimized code that is more readable.
+
+Challenges
+‍
+We’ve been developing and maintaining our dashboard using AngularJS since 2014. The codebase is now massive and complex. Therefore, the migration process isn’t a trivial task and it requires a lot of time and effort, not just from front-end developers, but from the testing team too to ensure robust and clean migration. That’s why a number of challenges and concerns presented themselves.
+
+The business is moving fast
+Instabug is currently in a high growth state with a lot of new features and entirely new products are being shipped continuously. Therefore, the development cycle is always in a state of rapid motion. This makes the migration process more challenging as we need to migrate in parallel with maintaining our codebase and adding new features.
+
+Choosing the right frontend framework
+We needed to make a decision on the framework we want to migrate to, and at that point, we had 3 options to choose from (Angular 2+, React, Vue).
+
+The Angular option
+"WE ARE SORRY ANGULAR, WE JUST CAN'T TRUST YOU ANYMORE"
+
+Choosing Angular as an option to migrate to had some limitations.
+
+Angular requires a full rewrite of our code which requires a lot of time and effort
+Angular is verbose and complex
+Steep learning curve since it requires TypeScript instead of JavaScript
+
+React Vs Vue
+After dropping Angular out from the competition, We did a lot of investigations comparing React and Vue based on a few criteria:
+
+Basic configuration, CLI, and initial setup time [Vue ✅]
+Code writing ideology (JSX vs Templates) [ Vue ✅]
+Market strength [React ✅]
+Getting help when needed (documentation and support) [Draw]
+Compatibility with animations [Vue ✅]
+Manipulating changes in DOM [Vue ✅]
+Dependency injection ability [Vue ✅]
+Code hierarchy and refactoring  Vue ✅]
+Broadcasting and remote event listening [Vue ✅]
+As you can see, for our requirements, Vue won by a mile so we decided to go with VueJS. The key factors for our decision were the time needed for the initial setup, some limitations in React such as JSX, and support for dependency injection.
+
+The migration process
+
+Our chosen strategy for the migration was to migrate incrementally (divide and conquer!). This meant updating our legacy code by breaking down the system into smaller components and migrating a small piece at a time to reduce the expenses and risks of the migration.
+
+Introducing NgVue
+The main challenge here was finding a way to painlessly integrate Vue components within the AngularJS application. We needed to be able to start new feature development using Vue and easily inject it into the currently existing AngularJS pages as well as convert existing features to new Vue components and inject them.
+
+All these requirements were easily resolved thanks to the NgVue library.
+
+Meet NgVue
+NgVue is a UMD module (Universal Module Definition) that offers a directive called vue-component and a factory called createVueComponent.
+vue-component is a directive that delegates data to a Vue component so VueJS can compile it with the corresponding nodes.
+createVueComponent is a factory that converts a Vue component into a reusable directive that is bound to a specific Vue component.
+‍
+
+Conclusion
+‍
+
+Migration can be a monumental project and it requires lots of effort, time, and planning to get right without sacrificing maintenance and development speed. And there’s more than one right to migrate your front-end framework.
+
+However, incremental migration was a good way of achieving quality and speed in our migration process. It enabled us to gradually migrate our old components without affecting production while still maintaining a rapid pace of scaling and feature development.

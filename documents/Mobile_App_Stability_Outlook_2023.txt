@@ -1,0 +1,105 @@
+Mobile App Stability Outlook 2023
+Get a holistic view of the current state of mobile app stability and understand the relationship between stability and app store ratings.
+In an increasingly mobile-first world, the mobile app industry has developed into a complex and competitive landscape that poses a multitude of challenges for apps to tackle. Mobile app stability has always been a critical factor for success, and as the demand for mobile apps continues to grow, mobile user expectations have become exacting.
+
+At Instabug, we pride ourselves on partnering with mobile teams across the globe to deliver exceptional mobile experiences. This gives us unprecedented insight into what makes for the most successful qualities of the world’s biggest and best apps. We recently analyzed the aggregate stability data of the apps using Instabug’s platform in an effort to shed light on the current state of mobile app stability and provide a benchmark for mobile teams to set the right targets on their path to mobile excellence.
+
+Key Takeaways
+
+Mobile app stability and app store ratings are directly and closely related. Mobile teams need to regard app stability as a critical imperative for 5-star ratings and success in mobile app stores.
+‘Five 9s’ stability has proven to be a viable target for successful mobile teams, and the commonly held target of 99.9% crash-free sessions is now considered insufficient and outdated.
+Crash-free sessions are not enough; mobile users will take to the app store if they encounter too many stability issues other than crashes. Successful mobile teams must adopt a more holistic view of their app stability to include less fatal stability issues and user frustration signals.
+
+Stability is a Prerequisite for Mobile App Success
+Our report goes beyond mobile app crashes and encompasses a range of mobile-specific metrics to paint a more accurate picture of the user experience and the stability of mobile apps when they’re not crashing. The analysis reveals a strong correlation between stability and app store star ratings and high overall performance when it comes to app stability.
+
+90% of mobile users consider app store ratings to be an essential factor in their evaluation of new apps and 50% of mobile users will not even consider an app rated below three stars. Moreover, more than 60% of mobile users who face issues with a mobile app actively try to discourage others from using the app, commonly through app stores.
+
+While there can be many reasons behind negative app store ratings, apps with a low stability score are significantly more likely to receive an app rating below 3 stars. This underscores the need for mobile teams to target flawless mobile app stability to drive a 5-star app store rating.
+
+Read on to discover the latest benchmarks across Crash-Free Sessions, Out-Of-Memory errors (OOM), Application Not Responding errors (ANR), App Hangs, and Forced Restarts.
+
+High standards for mobile app stability
+Crash-free session rate: The percentage of mobile app sessions that did not end with a fatal error.
+
+As the undisputed bane of mobile app stability, crashes are extremely disruptive to the user experience, terminating it altogether. The data reveals a median crash-free session rate of 99.94%, suggesting a high level of stability across all apps.
+
+At the 75th percentile, the top-performing mobile apps score an impressive 99.99% crash-free rate, confirming that ‘five 9s’ stability is a valid target for mobile teams. On the other end of the spectrum, apps at the 25th percentile lag behind with a crash-free session rate of 99.76%.
+
+This data makes it plain that mobile teams targeting anything lower than a 99.95% crash-free session rate should revisit their stability targets or risk being outperformed by the competition.
+
+Android scores a surprise win
+Surprisingly, our data set sees Android apps scoring a win over iOS in terms of stability with crash-free session rates of 99.95% and 99.87% respectively. This is true even among the top 25% performing apps on each platform at 99.99% and 99.96%.
+
+Despite the high degree of fragmentation in the Android ecosystem, high levels of stability have proven to be quite achievable. Mobile teams should not accept lower stability from their Android apps and must give priority to their app stability to achieve good results.
+
+A marked difference between industries
+Breaking down our data by industry reveals a relatively high degree of stability overall, with some clear winners and losers.
+
+Leading the pack, educational apps scored an impressive median of 100% crash-free sessions, further confirming the viability of the ‘five 9s’ stability target. Automotive apps came at a very close second with a 99.99% crash-free session rate.
+
+Food and beverage services scored the lowest median crash-free session rate at 99.79%, followed closely by media and entertainment at 99.84% and advertising at 99.89%. The remaining industries registered a respectable median crash-free score between 99.92% and 99.94%.
+
+Looking through a different lens, we can see that the leading apps across all industries maintain a commendable score, with four industries achieving an almost flawless score of 99.99% or above and only two scoring below 99.95% at the 75th percentile.
+
+
+5-star ratings require 5-star stability
+Arguably the most important indicator of a mobile app’s user experience, app store star ratings are a make-or-break factor for mobile app success.
+
+App store ratings and reviews are the only user-facing indicator of app experience to potential users and the primary standard against which mobile apps are judged by app stores. Improving the quality and quantity of your app’s ratings and reviews allows it to rank higher in user searches, driving traffic to your app store page and boosting downloads and conversion rates.
+
+Stability is not the only factor affecting app store rating, but our data shows a clear correlation between an app’s crash-free rate and its star rating, with apps under 3 stars scoring a significantly lower rate of 99.89%.
+
+This relationship is especially evident when we consider the crash-free score of the least-performing apps, with apps rated between 3 and 4.5 stars scoring around 99.7% and ones above 4.5 stars scoring 99.84% at the 25th percentile.
+
+This indicates a ’critical stability threshold’ of around 99.7% crash-free sessions to reach a 3-star rating, and around 99.85% to exceed 4.5 stars.
+
+Stability Beyond Crashes
+When measuring app stability, mobile teams must look beyond their crash-free session rate to a more holistic view that includes other important stability issues and frustration signals to ensure they deliver a stable experience when the app is not crashing.
+
+An app that never crashes but frequently encounters app hangs and Application Not Responding or Out Of Memory errors still offers a poor user experience. Mobile users don’t care what is causing a poor app experience, as long as it is a poor experience they are likely to share it on the app store.
+
+Application Not Responding errors (ANR)
+Definition: Instances where an app is unresponsive to user input for more than five seconds, prompting the operating system to notify the app user.
+
+ANR errors are a serious and highly disruptive stability issue that severely impacts the mobile app experience. The median number of ANR errors that occur across all apps stands at 0.79 ANR errors for every 10K sessions demonstrating their low overall incidence rate.
+
+However, breaking this down by rating reveals that apps rated below three stars scored a significantly higher median score of 4.46, with the rest registering scores between 0.24 and 1.02. This suggests a threshold of around 4 ANRs per 10K sessions above which a mobile app’s star rating might start to suffer.
+
+Out Of Memory errors (OOM)
+Definition: App terminations by the operating system due to excessive memory usage.
+
+While not technically crashes, OOM errors have an equally fatal impact on the user experience. Not far from ANRs, the median number of OOM errors across all apps stands at 0.83 OOM errors for every 10K sessions, also registering a low overall incidence rate.
+
+Breaking this down reveals widely varying OOM scores between 0 and 3.07, with no clear correlation between OOM scores and app store ratings. This could be explained by the low incidence rate of OOM errors overall which doesn’t affect a significant number of sessions.
+
+However, considering their similarity to ANRs, it might be safe to assume that OOMs have a similar incidence threshold of around 4 OOMs per 10K sessions above which app store ratings are impacted. Mobile teams must ensure they are able to capture and debug OOM and ANR errors occurring in their apps, keeping an eye out for any spikes and maintaining them below this threshold.
+
+App hangs
+Definition: Instances where an app is unresponsive to user input for more than two seconds, but less than five seconds.
+
+While not as disruptive as the stability issues previously mentioned, app hangs introduce significant friction to the mobile user experience and can be a leading indicator for the occurrence of ANR and OOM errors.
+
+The median number of app hangs per 10 thousand sessions steadily increases with app ratings, from 76 per 10K sessions for apps below 3 stars to 132 per 10K sessions for apps above 4.5+, with app ratings seemingly unaffected by the incidence of app hangs.
+
+However, when we look at the data for the 75th percentile, we can see that apps with a rating above 3 stars all hover at around 200 app hangs per 10K sessions, while apps rated below three stars scored 334 app hangs per 10K sessions, almost 70% higher.
+
+This suggests that there is a threshold of about 200 app hangs per 10K sessions above which an app’s star rating could begin to suffer. Again, mobile teams should have the appropriate tools and processes to monitor and debug app hang occurrences to avoid negative app store feedback.
+
+Forced restarts
+Definition: Instances where an app is manually forced to terminate, then restarted within 5 seconds.
+
+Forced restarts don’t always indicate the presence of a stability issue, but they are almost always a sign of user frustration. ‘Turn it off and on again’ is the first reflex for mobile app users who face a misbehaving app, making forced restarts an important metric to monitor.
+
+The median number of forced restarts across all apps stands at 134 per 10K sessions, though the breakdown by app store ratings does not reveal any clear trends or correlations. While difficult to provide an explanation or recommendation based on this data, it establishes a benchmark for forced restarts that mobile teams could find helpful.
+
+While not a north-star metric, tracking the incidence of forced restarts allows mobile teams to watch for spikes that indicate underlying issues and analyze app sessions that experienced forced restarts to understand what caused them.
+
+Meeting Mobile User Expectations
+Mobile app stability has come a long way over the past few years, but mobile user expectations have come even further. Mobile users are not content with a 99% crash-free session rate and are not shy about sharing their grievances on the app store.
+
+Mobile teams need to adopt a holistic view of their app’s stability and strive to reach a stability score as close to flawless as possible to have a chance to succeed in app stores and outperform their competitors.
+
+At Instabug, we’re committed to providing mobile teams with the tools they need to deliver exceptional mobile app experiences. Our platform equips you with best-in-class Bug Reporting, comprehensive Crash Reporting, detailed App Performance Monitoring, actionable App Ratings and Reviews monitoring, in-depth Session Replay, and mobile-centric Release Management, allowing you to transform your app quality and elevate your team’s performance.
+
+Explore our sandbox demo dashboard to learn more about how Instabug can help you automate issue reproduction, receive actionable, user-centric insights, streamline your mobile release process, and improve your team’s efficiency.

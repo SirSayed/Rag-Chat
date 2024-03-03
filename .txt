@@ -1,0 +1,7 @@
+- Which Front-end framework instabug use?
+- why they choose vue framework?
+- does instabug protect my data?
+- what tools can I itegrate tools with instabug?
+- Are there custom filters ?
+- How can Instabug help me to reduce app hangs?
+- how many times Egypt won Africa cup?
